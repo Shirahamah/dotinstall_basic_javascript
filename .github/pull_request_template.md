@@ -6,6 +6,6 @@
 <!-- List down your changes concisely -->
 - xxxxxx
 - xxx
-## :camera_with_flash: スクリーンショット
+## :camera: スクリーンショット
 <!-- スタイルなどの変更の場合はスクリーンショットがあるとレビューしやすいです -->
 <!-- Changes in styles would be easier to review with screenshots! -->
