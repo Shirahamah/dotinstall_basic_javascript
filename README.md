@@ -2,7 +2,7 @@
 
 - [x] #01 JavaScriptを使ってみよう  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/3
-- [ ] #02 ひな形となるファイルを作ろう  
+- [x] #02 ひな形となるファイルを作ろう  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/4
 - [ ] #03 クリックイベントを設定しよう  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/5
