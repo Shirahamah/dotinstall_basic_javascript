@@ -8,7 +8,7 @@
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/5
 - [ ] #04 コードを詳しく見ていこう  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/6
-- [ ] #05 エラーメッセージを読み解こう  
+- [x] #05 エラーメッセージを読み解こう  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/7
 - [ ] #06 CSSのクラスを操作してみよう  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/8
