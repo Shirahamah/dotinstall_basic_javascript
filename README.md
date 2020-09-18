@@ -13,9 +13,7 @@
 - [x] #03 クリックイベントを設定しよう  
  - Issue  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/5
- - 成果物  
- https://shirahamah.github.io/dotinstall_basic_javascript/03/
-- [ ] #04 コードを詳しく見ていこう  
+- [x] #04 コードを詳しく見ていこう  
  - Issue  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/6
   - 成果物  
