@@ -6,7 +6,7 @@
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/4
 - [x] #03 クリックイベントを設定しよう  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/5
-- [ ] #04 コードを詳しく見ていこう  
+- [x] #04 コードを詳しく見ていこう  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/6
 - [ ] #05 エラーメッセージを読み解こう  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/7
