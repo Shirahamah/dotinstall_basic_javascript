@@ -14,6 +14,7 @@
  - Issue  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/5
 - [x] #04 コードを詳しく見ていこう  
+ - Issue  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/6
  - 成果物  
  https://shirahamah.github.io/dotinstall_basic_javascript/04/
