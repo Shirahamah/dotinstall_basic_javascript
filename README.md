@@ -18,10 +18,10 @@
 - [ ] #04 コードを詳しく見ていこう  
  - Issue  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/6
- - 成果物  
+  - 成果物  
  https://shirahamah.github.io/dotinstall_basic_javascript/04/
-- [ ] #05 エラーメッセージを読み解こう  
- - Issue  
+- [x] #05 エラーメッセージを読み解こう 
+ - Issue 
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/7
  - 成果物  
  https://shirahamah.github.io/dotinstall_basic_javascript/05/
