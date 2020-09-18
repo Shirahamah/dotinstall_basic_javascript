@@ -4,7 +4,7 @@
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/3
 - [x] #02 ひな形となるファイルを作ろう  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/4
-- [ ] #03 クリックイベントを設定しよう  
+- [x] #03 クリックイベントを設定しよう  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/5
 - [ ] #04 コードを詳しく見ていこう  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/6
