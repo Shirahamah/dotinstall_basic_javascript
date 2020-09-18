@@ -23,7 +23,7 @@
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/7
  - 成果物  
  https://shirahamah.github.io/dotinstall_basic_javascript/05/
-- [ ] #06 CSSのクラスを操作してみよう  
+- [x] #06 CSSのクラスを操作してみよう  
  - Issue  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/8
  - 成果物  
