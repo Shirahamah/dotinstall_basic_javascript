@@ -30,7 +30,7 @@
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/8
  - 成果物  
  https://shirahamah.github.io/dotinstall_basic_javascript/06/
-- [ ] #07 定数を使ってみよう  
+- [x] #07 定数を使ってみよう  
  - Issue  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/9
  - 成果物  
