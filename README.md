@@ -48,7 +48,7 @@
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/12
  - 成果物  
  https://shirahamah.github.io/dotinstall_basic_javascript/10/
-- [ ] #11 簡単なゲームを作ってみよう  
+- [x] #11 簡単なゲームを作ってみよう  
  - Issue  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/13
  - 成果物  
