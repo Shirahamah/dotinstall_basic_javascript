@@ -38,7 +38,7 @@
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/10
  - 成果物  
  https://shirahamah.github.io/dotinstall_basic_javascript/08/
-- [ ] #09 JavaScriptでdivを生成してみよう  
+- [x] #09 JavaScriptでdivを生成してみよう  
  - Issue  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/11
  - 成果物  
