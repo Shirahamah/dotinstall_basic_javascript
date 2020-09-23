@@ -33,7 +33,7 @@
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/9
  - 成果物  
  https://shirahamah.github.io/dotinstall_basic_javascript/07/
-- [ ] #08 divを増やしてみよう  
+- [x] #08 divを増やしてみよう  
  - Issue  
  https://github.com/Shirahamah/dotinstall_basic_javascript/issues/10
  - 成果物  
