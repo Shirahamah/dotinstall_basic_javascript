@@ -46,23 +46,26 @@
     <div id="item"></div>
     
     <div class="btn">
-        <button id="btn">リセット</button>
+        <button id="resetbtn">リセット</button>
     </div>
     <script>
         'use strict'
         const num = 5;
         const winner = Math.floor(Math.random() * num);
-        const btn = document.getElementById('btn');
-        btn.disabled = true;
+        const resetbtn = document.getElementById('resetbtn');
+        resetbtn.disabled = true;
 
+        // divの生成
         for (let i = 0; i < num; i++) {
             const div = document.createElement('div');
             div.classList.add('box');
+            
+            // div要素クリック時の処理
             div.addEventListener('click', () => {
                 if (i === winner) {
                     div.textContent = 'Win!'
                     div.classList.add('win')
-                    btn.disabled = false;
+                    resetbtn.disabled = false;
                 } else {
                     div.textContent = 'Lose!'
                     div.classList.add('lose')
@@ -71,7 +74,8 @@
             document.getElementById('item').appendChild(div);    
         }
 
-        btn.addEventListener('click', () => {
+        // リセットボタンクリック時の処理
+        resetbtn.addEventListener('click', () => {
             
             var div1 = document.getElementById('item');
             var div1Paras = div1.getElementsByTagName('div');
@@ -83,7 +87,7 @@
                 element.textContent = '';
             });
 
-            btn.disabled = true;
+            resetbtn.disabled = true;
         });
     </script>
 </body>
