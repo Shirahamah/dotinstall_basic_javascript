@@ -96,6 +96,8 @@
             document.getElementById('item').appendChild(div);    
         }
 
+        // パネル要素を配列に変換し変数に代入
+        var selects = Array.prototype.slice.call(getPanelElements());
 
         // パネル要素を取得する
         function getPanelElements() {
@@ -106,7 +108,7 @@
 
         // パネル要素のクリック動作のアクティブ状態を操作
         function changeBtnActive() {
-            var selects = Array.prototype.slice.call(getPanelElements());
+            // var selects = Array.prototype.slice.call(getPanelElements());
             selects.forEach(element => {
                 element.classList.toggle('box-after');
                 element.classList.toggle('box-before');
@@ -115,7 +117,7 @@
 
         // パネル要素のwin、loseクラススタイルを削除する
         function removeClassStyle() {
-            var selects = Array.prototype.slice.call(getPanelElements());
+            // var selects = Array.prototype.slice.call(getPanelElements());
             selects.forEach(element => {
                 element.classList.remove('win');
                 element.classList.remove('lose');
