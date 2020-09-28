@@ -97,7 +97,7 @@
         }
 
 
-        function getId() {
+        function getPanelElements() {
             var div1 = document.getElementById('item');
             var div1Paras = div1.getElementsByTagName('div');
             return div1Paras;
@@ -109,7 +109,7 @@
             // var div1Paras = div1.getElementsByTagName('div');
 
             // div要素のクリック動作を有効にする
-            var selects = Array.prototype.slice.call(getId());
+            var selects = Array.prototype.slice.call(getPanelElements());
             selects.forEach(element => {
                 element.classList.remove('box-before');
                 element.classList.add('box-after');
@@ -126,7 +126,7 @@
             // var div1Paras = div1.getElementsByTagName('div');
 
             // div要素のwin,loseクラスを削除、クリック動作を無効にする
-            var selects = Array.prototype.slice.call(getId());
+            var selects = Array.prototype.slice.call(getPanelElements());
             selects.forEach(element => {
                 element.classList.remove('win');
                 element.classList.remove('lose');
