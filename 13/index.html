@@ -70,13 +70,9 @@
         <button id="startbtn">スタート</button>
         <button id="resetbtn">リセット</button>
     </div>
-    <script>
+
+<script>
         'use strict'
-        const num = 5;
-        const winner = Math.floor(Math.random() * num);
-        const resetbtn = document.getElementById('resetbtn');
-        resetbtn.disabled = true;
-        
         // パネル要素を取得する
         function getPanelElements() {
             var div1 = document.getElementById('item');
@@ -86,8 +82,7 @@
 
         // パネル要素のクリック動作のアクティブ状態を操作
         function changeBtnActive() {
-            // var selects = Array.prototype.slice.call(getPanelElements());
-            selects.forEach(element => {
+            panels.forEach(element => {
                 element.classList.toggle('box-after');
                 element.classList.toggle('box-before');
             });
@@ -95,13 +90,18 @@
 
         // パネル要素のwin、loseクラススタイルを削除する
         function removeClassStyle() {
-            // var selects = Array.prototype.slice.call(getPanelElements());
-            selects.forEach(element => {
+            panels.forEach(element => {
                 element.classList.remove('win');
                 element.classList.remove('lose');
                 element.textContent = '';
             });
         }
+
+        const num = 5;
+        const winner = Math.floor(Math.random() * num);
+        const resetbtn = document.getElementById('resetbtn');
+        resetbtn.disabled = true;
+        
 
         // divの生成
         for (let i = 0; i < num; i++) {
@@ -123,19 +123,10 @@
         }
 
         // パネル要素を配列に変換し変数に代入
-        var selects = Array.prototype.slice.call(getPanelElements());
+        var panels = Array.prototype.slice.call(getPanelElements());
 
         // スタートボタンクリック時の処理
         startbtn.addEventListener('click', () => {
-            // var div1 = document.getElementById('item');
-            // var div1Paras = div1.getElementsByTagName('div');
-
-            // div要素のクリック動作を有効にする
-            // var selects = Array.prototype.slice.call(getPanelElements());
-            // selects.forEach(element => {
-            //     element.classList.remove('box-before');
-            //     element.classList.add('box-after');
-            // });
             // パネル要素のクリック動作のアクティブ状態を操作
             changeBtnActive();
 
@@ -145,21 +136,6 @@
 
         // リセットボタンクリック時の処理
         resetbtn.addEventListener('click', () => {
-            
-            // var div1 = document.getElementById('item');
-            // var div1Paras = div1.getElementsByTagName('div');
-
-            // div要素のwin,loseクラスを削除、クリック動作を無効にする
-            // var selects = Array.prototype.slice.call(getPanelElements());
-            // selects.forEach(element => {
-            //     element.classList.remove('win');
-            //     element.classList.remove('lose');
-            //     element.textContent = '';
-            //     element.classList.remove('box-after');
-            //     element.classList.add('box-before');
-            // });
-            // win,loseクラスを削除、クリック動作を無効にする処理を分割
-
             // パネル要素のクリック動作のアクティブ状態を操作
             changeBtnActive();
 
