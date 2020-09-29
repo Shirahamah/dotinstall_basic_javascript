@@ -74,29 +74,6 @@
 <script>
         'use strict'
         // パネル要素を取得する
-        function getPanelElements() {
-            var div1 = document.getElementById('item');
-            var div1Paras = div1.getElementsByTagName('div');
-            return div1Paras;
-        }
-
-        // パネル要素のクリック動作のアクティブ状態を操作
-        function changeBtnActive() {
-            panels.forEach(element => {
-                element.classList.toggle('box-after');
-                element.classList.toggle('box-before');
-            });
-        }
-
-        // パネル要素のwin、loseクラススタイルを削除する
-        function removeClassStyle() {
-            panels.forEach(element => {
-                element.classList.remove('win');
-                element.classList.remove('lose');
-                element.textContent = '';
-            });
-        }
-
         const num = 5;
         const winner = Math.floor(Math.random() * num);
         const resetbtn = document.getElementById('resetbtn');
@@ -146,6 +123,29 @@
             resetbtn.disabled = true;
             startbtn.disabled = false;
         });
+
+        function getPanelElements() {
+            var div1 = document.getElementById('item');
+            var div1Paras = div1.getElementsByTagName('div');
+            return div1Paras;
+        }
+
+        // パネル要素のクリック動作のアクティブ状態を操作
+        function changeBtnActive() {
+            panels.forEach(element => {
+                element.classList.toggle('box-after');
+                element.classList.toggle('box-before');
+            });
+        }
+
+        // パネル要素のwin、loseクラススタイルを削除する
+        function removeClassStyle() {
+            panels.forEach(element => {
+                element.classList.remove('win');
+                element.classList.remove('lose');
+                element.textContent = '';
+            });
+        }
     </script>
 </body>
 </html>  
