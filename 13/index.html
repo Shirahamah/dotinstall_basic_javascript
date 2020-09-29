@@ -107,6 +107,7 @@
         // パネル要素の配列を変数 panels に代入
         var panels = getPanelElementsByClass(panelName);
         var triangles = getPanelElementsByClass(trianglelName);
+        var panels = getElementsByQuerySelector(panelName);
 
         // スタートボタンクリック時の処理
         startbtn.addEventListener('click', () => {
@@ -144,9 +145,16 @@
         //     return result;
         // }
 
+        // パネル要素を配列に変換して取得
         function getPanelElementsByClass(className) {
             var div1Paras = document.getElementsByClassName(className);
             var result = Array.prototype.slice.call(div1Paras);
+            return result;    
+        }
+
+        // querySelectorAllを使ってパネル要素の配列を取得
+        function getElementsByQuerySelector(className) {
+            var result = document.querySelectorAll("." + className);
             return result;    
         }
 
