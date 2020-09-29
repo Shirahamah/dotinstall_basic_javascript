@@ -76,29 +76,7 @@
         const winner = Math.floor(Math.random() * num);
         const resetbtn = document.getElementById('resetbtn');
         resetbtn.disabled = true;
-
-        // divの生成
-        for (let i = 0; i < num; i++) {
-            const div = document.createElement('div');
-            div.classList.add('box-before');
-            
-            // div要素クリック時の処理
-            div.addEventListener('click', () => {
-                if (i === winner) {
-                    div.textContent = 'Win!'
-                    div.classList.add('win')
-                    resetbtn.disabled = false;
-                } else {
-                    div.textContent = 'Lose!'
-                    div.classList.add('lose')
-                }
-            });
-            document.getElementById('item').appendChild(div);    
-        }
-
-        // パネル要素を配列に変換し変数に代入
-        var selects = Array.prototype.slice.call(getPanelElements());
-
+        
         // パネル要素を取得する
         function getPanelElements() {
             var div1 = document.getElementById('item');
@@ -125,6 +103,28 @@
             });
         }
 
+        // divの生成
+        for (let i = 0; i < num; i++) {
+            const div = document.createElement('div');
+            div.classList.add('box-before');
+            
+            // div要素クリック時の処理
+            div.addEventListener('click', () => {
+                if (i === winner) {
+                    div.textContent = 'Win!'
+                    div.classList.add('win')
+                    resetbtn.disabled = false;
+                } else {
+                    div.textContent = 'Lose!'
+                    div.classList.add('lose')
+                }
+            });
+            document.getElementById('item').appendChild(div);    
+        }
+
+        // パネル要素を配列に変換し変数に代入
+        var selects = Array.prototype.slice.call(getPanelElements());
+
         // スタートボタンクリック時の処理
         startbtn.addEventListener('click', () => {
             // var div1 = document.getElementById('item');
@@ -142,7 +142,6 @@
             // スタートボタンを非アクティブにする
             startbtn.disabled = true;
         })
-
 
         // リセットボタンクリック時の処理
         resetbtn.addEventListener('click', () => {
